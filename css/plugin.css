@@ -1,0 +1,57 @@
+.J_mask {
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+}
+.J_mask.animate {
+	opacity: .4;
+	animation: mask ease .5s;
+}
+@keyframes mask {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: .4;
+	}
+}
+.dialog {
+	position: fixed;
+	min-width:350px;
+	/*height: 300px;*/
+	left:50%;
+	top:50%;
+	margin-left:-150px;
+	background-color: #fff;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+	border-radius: 5px;
+	padding:50px 30px 25px;
+	z-index: 10000;
+}
+.dialog.success {
+	padding-top:110px;
+	background: url("https://dn-cdn-shop-jide-com.qbox.me/jide_upload/H1438232727894_icon_orderok.png") 50% 30px no-repeat #fff;
+}
+.dialog.error {
+	padding-top: 110px;
+	background:url("https://dn-cdn-shop-jide-com.qbox.me/jide_upload/P1438229179942_icon_warning.png") 50% 30px no-repeat #fff;
+}
+.dialog>h1 {
+	text-align: center;
+	font-weight: normal;
+	padding: 15px;
+}
+.btns_wrap {
+	text-align: center;
+}
+.dialog .dialog_btns {
+	padding: 12px 40px;
+	margin: 20px 6% 0px;
+	/*border: 1px solid #4E6D8D;*/
+	border:none;
+	background-color: #5DADE2;
+	border-radius: 5px;
+	color:#fff;
+	cursor: pointer;
+}

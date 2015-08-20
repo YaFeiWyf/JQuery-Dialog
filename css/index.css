@@ -1,0 +1,84 @@
+body {
+	padding-top:50px;
+	font-size:14px;
+}
+a {
+	width:100px;
+	height:50px;
+	display: block;
+	background-color:blue;
+}
+.wrapper {
+	width:90%;
+	max-width: 1024px;
+	height:1000px;
+	position: relative;
+	margin:0 auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+	border-radius: 5px;
+	text-align: center;
+}
+/*.dialog {
+	width:500px;
+	height:500px;
+	background-color:#ccc;
+	position: fixed;
+}
+.dialog:hover {
+	background-color:red;
+}*/
+.del,
+.sub {
+	width:200px;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+}
+.animation {
+	width:200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.box {
+	width:500px;
+	height:500px;
+	/*position: absolute;
+	top:50%;
+	left:50%;
+	margin-left: -250px;*/
+	box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+	border-radius: 5px;
+	background-color: #def;
+	overflow: hidden;
+}
+.box h1 {
+	font-size: 24px;
+	font-weight: normal;
+	padding:20px 0;
+	text-align: center;
+	color: #fff;
+}
+.box p {
+	width:85%;
+	margin:0 auto;
+	font-size: 14px;
+	line-height: 1.5;
+	color:#fff;
+}
+.pox {
+	display: inline-block;
+	width:300px;
+	height: 300px;
+	vertical-align: middle;
+	background-color: green;
+	overflow: hidden;
+	padding:30px;
+	display: none;
+}
+.dialog div {
+	font-size:16px;
+	color:#ccc;
+	text-align: center;
+	line-height: 1.5
+}
