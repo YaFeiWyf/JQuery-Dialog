@@ -1,8 +1,8 @@
-This is mine firse plugin which is based on jQuery.
+This is my first plugin which is based on jQuery.
 	This plugin include some functions,you can create a dialog by $.dialog(),and use center() function to make your element layout center in your screen.
 
 
-Now , i would like to introduce how to use $.dialog():
+Now , i would like to introduce how to use $.dialog() and $("element").center():
 
 
 first, if you want to use a default dialog ,you don't have to add any arguments for this function;
