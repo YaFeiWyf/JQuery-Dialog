@@ -27,8 +27,8 @@ If you want to custom some text or html in the dialog ,you can do like this:
 
 ```
 	$.dialog({
-		cls : ['class1','class2'],  //with this array you can custom some class for this dialog ,then you can modify the dialog's style by these class;
-		text : "Here is your custom text",   //you can custom some text for your dialog ,such as "This is my first dialog. Haha!!"
+		cls : ['class1','class2'],  //with this array you can custom some classes for this dialog ,then you can modify the dialog's style by these classes;
+		text : "Here is your custom text",   //you can custom some text for this dialog, such as "This is my first dialog. Haha!!"
 		html : '',     //in this part you can use a template or you can use a DOM object which is already exist in your html document. such as "html : $('#dialog')";
 		model : true,   //with this argument ,you can decide if you want a model when the dialog alert. The default set is true.
 		btns : [{
@@ -39,8 +39,8 @@ If you want to custom some text or html in the dialog ,you can do like this:
 				text : '取消',
 				cls : 'cancel',
 				callback : function(){}
-			}]					//btns ,you need add an array for this argument, you can custom a button or two buttons for your dialog,
-								//this array include one or two object, with this object ,you can custom the button's text ,cls and callback function.
+			}]	//btns ,you need add an array for this argument, you can custom a button or two buttons for your dialog,
+				//this array include one or two object, with this object ,you can custom the button's text ,cls and callback function.
 		
 	});
 ```
