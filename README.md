@@ -1,12 +1,31 @@
-This is my first plugin which is based on jQuery.
-This plugin include some functions,you can create a dialog by $.dialog(),and use center() function to make your element layout center in your screen.
+#Jquery Dialog
+##This is my first plugin which is based on jQuery.
+This plugin include some functions, you can create a dialog by 
+```
+$.dialog()
+```
+and use 
+```
+$("element").center() 
+```
+function to make your element layout center in your screen.
 
+Now , i would like to introduce how to use 
+```
+$.dialog() 
+```
+and 
+```
+$("element").center()
+```
 
-Now , i would like to introduce how to use $.dialog() and $("element").center():
+##First:
 
+If you want to use a default dialog , you don't have to add any arguments for this function;
+##Second:
+If you want to custom some text or html in the dialog ,you can do like this:
 
-first, if you want to use a default dialog ,you don't have to add any arguments for this function;
-second ,if you want to custom some text or html in the dialog ,you can do like this:
+```
 	$.dialog({
 		cls : ['class1','class2'],  //with this array you can custom some class for this dialog ,then you can modify the dialog's style by these class;
 		text : "Here is your custom text",   //you can custom some text for your dialog ,such as "This is my first dialog. Haha!!"
@@ -24,5 +43,15 @@ second ,if you want to custom some text or html in the dialog ,you can do like t
 								//this array include one or two object, with this object ,you can custom the button's text ,cls and callback function.
 		
 	});
-third, if you want to make your element layout center in your screen ,you can use center() function, like this: $("#element").center() .So amazing, you can make element center just like this.
+```
+##Third
+If you want to make your element layout center in your screen , you can use center() function like this: 
+```
+$("#element").center()
+``` .
+So amazing, you can make element center in your screen.
 
+#Personal website
+
+Here is my [personal website](http://www.yvanwang.com/).
+Let's be friends
