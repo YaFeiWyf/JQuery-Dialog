@@ -19,10 +19,10 @@ and
 $("element").center()
 ```
 
-##First:
+##First :
 
 If you want to use a default dialog , you don't have to add any arguments for this function;
-##Second:
+##Second :
 If you want to custom some text or html in the dialog ,you can do like this:
 
 ```
@@ -44,7 +44,7 @@ If you want to custom some text or html in the dialog ,you can do like this:
 		
 	});
 ```
-##Third
+##Third :
 If you want to make your element layout center in your screen , you can use center() function like this: 
 ```
 $("#element").center()
