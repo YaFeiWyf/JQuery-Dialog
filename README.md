@@ -48,7 +48,7 @@ If you want to custom some text or html in the dialog ,you can do like this:
 If you want to make your element layout center in your screen , you can use center() function like this: 
 ```
 $("#element").center()
-``` .
+``` 
 So amazing, you can make element center in your screen.
 
 #Personal website
