@@ -1,5 +1,5 @@
-#Jquery Dialog
-##This is my first plugin which is based on jQuery.
+# Jquery Dialog
+## This is my first plugin which is based on jQuery.
 This plugin include some functions, you can create a dialog by 
 ```
 $.dialog()
@@ -19,10 +19,10 @@ and
 $("element").center()
 ```
 
-##First :
+## First :
 
 If you want to use a default dialog , you don't have to add any arguments for this function;
-##Second :
+## Second :
 If you want to custom some text or html in the dialog ,you can do like this:
 
 ```
@@ -44,14 +44,14 @@ If you want to custom some text or html in the dialog ,you can do like this:
 		
 	});
 ```
-##Third :
+## Third :
 If you want to make your element layout center in your screen , you can use center() function like this: 
 ```
 $("#element").center()
 ``` 
 So amazing, you can make element center in your screen.
 
-#Personal website
+# Personal website
 
 Here is my [personal website](http://www.yvanwang.com/).
 Let's be friends
